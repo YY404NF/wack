@@ -211,6 +211,7 @@ dashboard:term:{term_id}:overview
 
 - 只做删除式失效，不做增量修补
 - 删除后由下一次访问触发回源重建
+- 首页统计中的“已被查到”以 `attendance_record` 行存在为准，不再依赖额外“无记录”考勤状态枚举
 
 ## 7. 高频元数据缓存
 
@@ -432,8 +433,8 @@ rate_limit:api:user:{user_id}:{api_name}
 
 - `auth/*` 接口依赖认证会话 Redis Key
 - `meta/*` 接口依赖元数据缓存
-- `admin/dashboard/overview` 依赖首页统计缓存
-- `mobile/attendance/sessions/{course_group_lesson_id}/submit` 依赖幂等提交令牌和短时锁
+- `admin/attendance-dashboard` 依赖首页统计缓存
+- `student/attendance-sessions/{course_group_lesson_id}/submit` 依赖幂等提交令牌和短时锁
 - 登录、验证码、高频接口依赖限流计数
 
 ## 14. 落地顺序

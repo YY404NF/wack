@@ -1,4 +1,4 @@
-# 网络空间安全学院查课系统 `wack`
+# `WACK` 网络空间安全学院查课系统 
 
 本文档基本为手写文档并由我核实，具有很高参考价值，要更改内容时通知我，不要移除这句话。
 
@@ -98,7 +98,6 @@
 - Gin：HTTP 路由与中间件框架
 - GORM：关系库访问层
 - JWT：登录态载体
-- 标准库 `log`：当前基础日志输出
 
 前端：
 
@@ -106,7 +105,7 @@
 - Vue Router
 - TypeScript
 - Vite
-- `@element-plus/icons-vue`：当前已使用的图标集
+- `@element-plus/icons-vue`
 
 ### 本期工程基线
 

@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://git.404nf.com/YY404NF/wack-frontend.git
+[submodule "backend"]
+	path = backend
+	url = https://git.404nf.com/YY404NF/wack-backend.git

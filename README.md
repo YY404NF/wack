@@ -1,5 +1,20 @@
 # `WACK` 网络空间安全学院查课系统 
 
+## 工作区结构
+
+本仓库是 WACK 的协作入口，前后端以 Git submodule 方式组织：
+
+- `frontend/`：前端项目，仓库地址为 `https://git.404nf.com/YY404NF/wack-frontend`
+- `backend/`：后端项目，仓库地址为 `https://git.404nf.com/YY404NF/wack-backend`
+
+完整克隆请使用：
+
+```bash
+git clone --recurse-submodules https://github.com/YY404NF/wack.git
+```
+
+已有普通克隆则执行 `git submodule update --init --recursive`。项目协作规则见根目录 `AGENTS.md`；可复用的项目上下文 skill 见 `.agents/skills/wack/SKILL.md`。
+
 本文档基本为手写文档并由我核实，具有很高参考价值，要更改内容时通知我，不要移除这句话。
 
 ## 项目目标

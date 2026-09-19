@@ -13,7 +13,7 @@
 git clone --recurse-submodules https://github.com/YY404NF/wack.git
 ```
 
-已有普通克隆则执行 `git submodule update --init --recursive`。项目协作规则见根目录 `AGENTS.md`；可复用的项目上下文 skill 见 `.agents/skills/wack/SKILL.md`。
+已有普通克隆则执行 `git submodule update --init --recursive`。项目协作规则见根目录 `AGENTS.md`。
 
 本文档基本为手写文档并由我核实，具有很高参考价值，要更改内容时通知我，不要移除这句话。
 
